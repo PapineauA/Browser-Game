@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(124, 101, 177);
+    height: 99%;
+    width: 99%;
+}
+
+#game-controls {
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 1rem;
+    height: 10%;
+    width: 10%;
+    padding: 0.3rem;
+    margin-left: auto;
+    margin-right: 90%;
+    text-align: center;
+}
+
+#how-to {
+    font-size: 1.25rem;
+}
+
+#game-container {
+    padding: 0.5rem;
+    background-color: #eee;
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 1rem;
+}
