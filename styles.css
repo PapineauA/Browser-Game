@@ -2,9 +2,11 @@ body {
     background-color: rgb(124, 101, 177);
     height: 99%;
     width: 99%;
+    display: flex;
 }
 
-#game-controls {
+/* The div which has the controls to the game and how to play it. */
+#controls {
     background-color: #eee;
     border: 3px solid black;
     border-radius: 1rem;
@@ -12,21 +14,28 @@ body {
     width: 10%;
     padding: 0.3rem;
     margin-left: auto;
-    margin-right: 90%;
     text-align: center;
 }
 
+/* The title text for the how to section. */
 #how-to {
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
+/* The container div of the game. */
 #game-container {
     padding: 0.5rem;
     background-color: #eee;
-    width: 75%;
-    height: 75%;
+    width: 80%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid black;
     border-radius: 1rem;
+}
+
+/* The div where the game itself actually is. */
+#game {
+    text-align: center;
 }
