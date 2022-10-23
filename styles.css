@@ -39,3 +39,9 @@ body {
 #game {
     text-align: center;
 }
+
+/*Button Styling */
+
+#startBtn {
+    border: 3px solid black;
+}
