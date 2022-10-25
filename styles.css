@@ -35,13 +35,19 @@ body {
     border-radius: 1rem;
 }
 
-/* The div where the game itself actually is. */
-#game {
+#game-title {
     text-align: center;
 }
 
-/*Button Styling */
+/* The div where the game itself actually is. */
+#game {
+    text-align: center;
+    
+}
 
-#startBtn {
-    border: 3px solid black;
+/*Button Styling */
+button {
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-weight: bold;
 }
