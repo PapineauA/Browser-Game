@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(124, 101, 177);
+    background-color: rgb(50, 26, 105);
     height: 99%;
     width: 99%;
     display: flex;
@@ -42,6 +42,7 @@ body {
 /* The div where the game itself actually is. */
 #game {
     text-align: center;
+    font-size: 18px;
     
 }
 
