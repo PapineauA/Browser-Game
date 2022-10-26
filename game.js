@@ -96,7 +96,7 @@ document.getElementById("game").appendChild(suspectBtn4);
 
 //Trivia Start Button
 let questionBtn = document.createElement("button");
-questionBtn.innerHTML = "Question Section!";
+questionBtn.innerHTML = "Questions Page!";
 questionBtn.addEventListener("click", function () {
   location.href = "questions.html";
 });

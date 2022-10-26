@@ -14,7 +14,8 @@
             You can do this by reading through the case files that the police have gathered and with your own insights
             see into the heart of what really occured!
             When you feel like you've figured out what happened, click the "Question Time" button to start the Trivia
-            Game!
+            Game! During the trivia sections, click through whichever you think is the right answer, and click evaluate.
+            Whatever the answer is, click next until the quiz is over. Then click results to display your total score!
         </p>
     </div>
     <div id="game-container">
@@ -22,8 +23,25 @@
             <h1>Wolf In Sheep's Clothing</h1>
         </div>
         <div id="game">
+            <div class="result">
+            </div>
+            <div class="question-container" id="question">
+                Question goes here.
+            </div>
+            <div class="option-container">
+                <button class="option" onclick="" id="op1">option1</button>
+            
+                <button class="option" id="op2">option2</button>
+            
+                <button class="option" id="op3">option3</button>
+            
+                <button class="option" id="op4">option4</button>
+            </div>
+            <div class="navigation">
+                <button class="evaluate">Evaluate</button>
+                <button class="next">Next</button>
+            </div>
         </div>
-        <div id = "results"></div>
     </div>
     <script src="questions.js"></script>
 </body>
